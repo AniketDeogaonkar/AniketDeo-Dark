@@ -1,0 +1,37 @@
+{
+  "name": "aniketdeo-dark",
+  "displayName": "AniketDeo Dark",
+  "description": "AniketDeo Dark theme for better coding experience",
+  "version": "0.0.1",
+  "publisher": "AniketDeogaonkar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AniketDeogaonkar/AniketDeo-Dark.git"
+  },
+
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+
+  "keywords": [
+    "theme",
+    "dark-themes",
+    "AniketDeo Dark",
+    "aniketdeo-dark",
+    "vscode-dark",
+    "bestvscode-dark"
+
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "AniketDeo Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/AniketDeo Dark-color-theme.json"
+      }
+    ]
+  }
+}
